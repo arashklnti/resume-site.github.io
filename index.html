@@ -426,8 +426,10 @@
         }
         .project-images img {
             width: 100%;
-            max-width: 300px;
-            height: auto;
+            /*max-width: 300px;
+            height: auto;*/
+            max-height: 200px;
+            width: auto;
             cursor: pointer;
         }
 
@@ -449,10 +451,8 @@
         .modal-content {
             margin: auto;
             display: block;
-            /*width: 80%;*/
-            /*max-width: 700px;*/
-            height: 50%;
-            max-height: 200px
+            width: 80%;
+            max-width: 700px;
         }
 
         /* Caption of Modal Image */
@@ -489,7 +489,7 @@
             <h2 class="project-title">Mars Sample Recovery Helicopter</h2>
             <p class="project-description">As the Manipulation Lead System Engineer, I led the development of the Mars Sample Recovery Helicopter, focusing on its manipulation systems to ensure successful sample retrieval on Mars.</p>
             <div class="project-images">
-                <img src="img/projects/SRH1.jpg" alt="Mars Sample Recovery Helicopter Manipulation System Outline" onclick="openModal('Mars Sample Recovery Helicopter Manipulation System Outline')">
+                <img src="img/projects/SRH1.jpg" alt="Mars Sample Recovery Helicopter Manipulation System Outline" onclick="openModal('img/projects/SRH2.jpg','Mars Sample Recovery Helicopter Manipulation System Outline')">
                 <img src="img/projects/SRH2.jpg" alt="Mars Sample Recovery Helicopter Manipulation System" onclick="openModal('img/projects/SRH2.jpg', 'Mars Sample Recovery Helicopter Manipulation System')">
             
             </div>
